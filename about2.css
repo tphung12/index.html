@@ -1,9 +1,6 @@
 body{
     background-image: url(http://vignette1.wikia.nocookie.net/jjba/images/a/a3/Volume_14.jpg/revision/latest?cb=20120215015903);
-    -webkit-background-size: contain;
-        -moz-background-size: contain;
-        -o-background-size: contain;
-        background-size: contain;
+    
     font-family: Helvetica, Times, Sans-serif;
     
 }
@@ -12,7 +9,8 @@ a{
     text-decoration: none;
     color:white;
         background-color:red;
- 
+        font-size: 25px;
+ padding:1px;
     opacity:0.8;
     
 
@@ -74,7 +72,8 @@ a{
 #jojo {
     width: 600px;
    
-  
+   
+
    
     
 }
@@ -110,6 +109,58 @@ a{
     margin-right:10px;
     margin-bottom:5px;
 }
+
+#nenapic img{
+    width:300px;
+    height:250px;
+    float:right;
+    margin-right:10px;
+    margin-bottom:5px;
+}
+
+#danpic img{
+    width:300px;
+    height:250px;
+    float:left;
+    margin-right:10px;
+    margin-bottom:5px;
+}
+
+
+#igspic img{
+    width:300px;
+    height:250px;
+    float:right;
+    margin-right:10px;
+    margin-bottom:5px;
+}
+
+#darbspic img{
+    width:300px;
+    height:250px;
+    float:left;
+    margin-right:10px;
+    margin-bottom:5px;
+}
+
+
+#darbs2pic img{
+    width:300px;
+    height:250px;
+    float:right;
+    margin-right:10px;
+    margin-bottom:5px;
+}
+
+#diopic img{
+    width:300px;
+    height:250px;
+    float:left;
+    margin-right:10px;
+    margin-bottom:5px;
+}
+
+
 
 #footer{
     clear:both;
