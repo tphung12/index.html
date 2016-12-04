@@ -1,0 +1,124 @@
+body{
+    background-image: url(http://vignette1.wikia.nocookie.net/jjba/images/a/a3/Volume_14.jpg/revision/latest?cb=20120215015903);
+    -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    font-family: Helvetica, Times, Sans-serif;
+    
+}
+
+a{
+    text-decoration: none;
+    color:white;
+        background-color:red;
+ 
+    opacity:0.8;
+    
+
+}
+
+
+#container{
+    
+    width:800px;
+    margin-left:auto;
+    margin-right:auto;
+    color:white;
+}
+
+#header{
+    background-color: #9933FF;
+    color:white;
+    text-align: center;
+    padding:10;
+    opacity: 0.7;
+    
+}
+
+#content
+{
+    padding: 10px;
+}
+
+#nav{
+    width:180px;
+    float:left;
+}
+
+#nav ul{
+ list-style-type: none;   
+ padding: 0;
+ 
+}
+
+
+
+#main {
+    width: 600px;
+    float:left; 
+    background-color:black;
+ 
+    opacity:0.6;
+    
+    
+}
+#jojopic img{
+    width:300px;
+    height:250px;
+    float:left;
+    margin-right:10px;
+    margin-bottom:5px;
+}
+
+#jojo {
+    width: 600px;
+   
+  
+   
+    
+}
+
+#kakpic img{
+    width:300px;
+    height:250px;
+    float:right;
+    margin-right:10px;
+    margin-bottom:5px;
+}
+
+#hollypic img{
+      width:300px;
+    height:250px;
+    float:left;
+    margin-right:10px;
+    margin-bottom:5px;
+}
+
+#polnpic img{
+      width:300px;
+    height:250px;
+    float:right;
+    margin-right:10px;
+    margin-bottom:5px;
+}
+    
+#workpic img{
+    width:300px;
+    height:250px;
+    float:left;
+    margin-right:10px;
+    margin-bottom:5px;
+}
+
+#footer{
+    clear:both;
+    padding:10px;
+    background-color: #999999;
+    color:white;
+    text-align: right;
+}
+
+#nav .selected{
+    font-weight: bold;
+}
