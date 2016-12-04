@@ -1,0 +1,78 @@
+body{
+    background-image: url(http://fanaru.com/jojos-bizarre-adventure/image/99696-jojos-bizarre-adventure-jojos-bizarre-adventure.jpg);
+    -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    font-family: Helvetica, Times, Sans-serif;
+    
+}
+
+a{
+    text-decoration: none;
+    color:white;
+        background-color:black;
+ 
+    opacity:0.8;
+    
+
+}
+
+h1 , h2, h3{
+    margin:0;
+}
+
+#container{
+    
+    width:800px;
+    margin-left:auto;
+    margin-right:auto;
+    color:white;
+}
+
+#header{
+    background-color: #C55CD5;
+    color:white;
+    text-align: center;
+    padding:10;
+    
+}
+
+#content
+{
+    padding: 10px;
+}
+
+#nav{
+    width:180px;
+    float:left;
+}
+
+#nav ul{
+ list-style-type: none;   
+ padding: 0;
+}
+
+
+
+#main {
+    width: 600px;
+    float:right; 
+    background-color:black;
+ 
+    opacity:0.8;
+    
+    
+}
+
+#footer{
+    clear:both;
+    padding:10px;
+    background-color: #999999;
+    color:white;
+    text-align: right;
+}
+
+#nav .selected{
+    font-weight: bold;
+}
